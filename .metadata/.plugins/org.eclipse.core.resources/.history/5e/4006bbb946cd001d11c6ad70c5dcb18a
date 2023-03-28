@@ -1,0 +1,19 @@
+package application;
+
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+
+public class App {
+
+	public static void main(String[] args) {
+	
+		String url = "https://imdb-api.com/en/API/Top250Movies/xxxxxx";
+		HttpClient client = HttpClient.newHttpClient();
+		URI endereço = URI.create(url);
+		
+		HttpRequest
+		
+	}
+
+}

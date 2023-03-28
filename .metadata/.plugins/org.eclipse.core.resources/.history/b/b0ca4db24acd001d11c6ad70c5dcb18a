@@ -1,0 +1,12 @@
+package application;
+
+import java.util.List;
+import java.util.Map;
+
+public class JsonParse {
+
+	
+	public List<Map<String, String>> parse(String json){
+		
+	}
+}
