@@ -13,7 +13,7 @@ public class App {
 
 	public static void main(String[] args) throws Exception {
 //		fazendo uma conexão HTTP e buscando os tops 250 filmes	
-		String url = "https://imdb-api.com/en/API/Top250Movies/k_0ojt0yvm";
+		String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies.json";
 		URI endereço = URI.create(url);
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest request = HttpRequest.newBuilder(endereço).GET().build();
